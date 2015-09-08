@@ -286,6 +286,67 @@
                     <h2 class="section-heading">Aqui estamos!</h2>
                     <hr class="primary">
                     <p>Listo para empezar tu proximo proyecto con nosotros? Necesitas cotizar tintas?. Llámanos o envianos un email, estaremos ahi para entregarte la solucion!</p>
+
+<form name="contactform" class="form-horizontal" method="post" action="enviar_email.php">
+<fieldset>
+
+<!-- Form Name -->
+<legend></legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="first_name">Nombre *</label>  
+  <div class="col-md-5">
+  <input id="first_name" name="first_name" placeholder="" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="last_name">Apellido *</label>  
+  <div class="col-md-5">
+  <input id="last_name" name="last_name" placeholder="" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="email">Email *</label>  
+  <div class="col-md-5">
+  <input id="email" name="email" placeholder="" class="form-control input-md" required="" type="email">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="telephone">Teléfono </label>  
+  <div class="col-md-5">
+  <input id="telephone" name="telephone" placeholder="" class="form-control input-md" type="text">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="message">Mensaje *</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="message" name="message" required></textarea>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit"></label>
+  <div class="col-md-4">
+    <button id="submit" class="btn btn-warning">Enviar!</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x wow bounceIn"></i>
