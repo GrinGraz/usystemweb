@@ -123,19 +123,18 @@ $headers = 'From: '.$email_from."\r\n".
  
 'X-Mailer: PHP/' . phpversion();
  
-@mail($email_to, $email_subject, $email_message, $headers);  
- 
+@mail($email_to, $email_subject, $email_message, $headers); 
+header('Location: index.html#contact');
 ?>
  
  
  
 <!-- incluye aqui tu propio mensaje de Éxito-->
- 
+
 Gracias! Nos pondremos en contacto contigo a la brevedad
  
  
 <?php
- 
 }
  
 ?>
